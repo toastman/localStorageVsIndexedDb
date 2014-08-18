@@ -1,0 +1,12 @@
+html, body{ margin: 0; height: 100%}
+body { background: green }
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+table[name="results"]{
+  width: 100%;
+  text-align: center;
+}

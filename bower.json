@@ -1,0 +1,20 @@
+{
+  "name": "localStorageVsIndexedDb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/toastman/localStorageVsIndexedDb",
+  "authors": [
+    "andriy vandakurov <andriy.vandakurov@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "~1.0.0"
+  }
+}

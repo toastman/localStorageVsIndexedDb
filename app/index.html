@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">  
+  <title>LocalStorage vs IndexedDb</title>
+  <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body>
+  <section class="container">
+    <header>LocalStorage VS IndexedDb</header>
+
+    <textarea name="data" id="" cols="30" rows="10"></textarea>
+    <button class="btn-data-set">Set data</button>
+    <button class="btn-data-get">Get data</button>
+
+    <table name="results">
+      <tr>
+        <th>LocalStorage (ms)</th>
+        <th>IndexedDb (ms)</th>
+        <th>Data size (bytes)</th>
+      </tr>
+
+    </table>
+  </section>
+
+  <script src="bower_components/es6-promise/promise.min.js"></script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>
